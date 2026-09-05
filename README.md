@@ -82,4 +82,3 @@ This project is intended for a restaurant brand website and can be customized fu
 - contact details and map links
 - social media links
 - reservation or order call-to-action buttons
-  
