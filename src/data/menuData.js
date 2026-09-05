@@ -104,7 +104,7 @@ export const menuCategories = [
         price: 170,
         pax: "Good for 2-3 pax",
         desc: "Tender chicken simmered in a rich, velvety butter and garlic sauce.",
-        img: "/assets/buttered chicken.png"
+        img: "/assets/buttered-chicken.png"
       },
       {
         name: "Tinolang Manok",
@@ -144,7 +144,7 @@ export const menuCategories = [
         price: 170,
         pax: "Good for 2-3 pax",
         desc: "Sizzling, crispy pork bits tossed with onions, chili, and fresh calamansi.",
-        img: "/assets/pork sisig.png"
+        img: "/assets/pork-sisig.png"
       }
     ]
   },
