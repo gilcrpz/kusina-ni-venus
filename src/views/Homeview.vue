@@ -34,7 +34,7 @@
 
         <div class="card fadeInUp sos delay-2">
           <div class="card-img">
-            <img src="/assets/buttered chicken.png" alt="Buttered Chicken" />
+            <img src="/assets/buttered-chicken.png" alt="Buttered Chicken" />
           </div>
           <h3 class="card-title">Buttered Chicken</h3>
           <p class="card-price">₱170</p>
@@ -44,7 +44,7 @@
 
         <div class="card fadeInUp sos delay-3">
           <div class="card-img">
-            <img src="/assets/pork sisig.png" alt="Pork Sisig" />
+            <img src="/assets/pork-sisig.png" alt="Pork Sisig" />
           </div>
           <h3 class="card-title">Pork Sisig</h3>
           <p class="card-price">₱170</p>
