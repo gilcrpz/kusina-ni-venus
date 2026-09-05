@@ -12,7 +12,7 @@
         </div>
 
         <div class="hero-image">
-          <img src="/assets/bulalo.png" alt="Bulalo" />
+          <img :src="assetPath('bulalo.png')" alt="Bulalo" />
         </div>
       </div>
     </section>
@@ -24,7 +24,7 @@
       <div class="cards-grid">
         <div class="card fadeInUp sos delay-1">
           <div class="card-img">
-            <img src="/assets/pigarpigar.png" alt="Pigar-Pigar" />
+            <img :src="assetPath('pigarpigar.png')" alt="Pigar-Pigar" />
           </div>
           <h3 class="card-title">Pigar-Pigar</h3>
           <p class="card-price">₱170</p>
@@ -34,7 +34,7 @@
 
         <div class="card fadeInUp sos delay-2">
           <div class="card-img">
-            <img src="/assets/buttered-chicken.png" alt="Buttered Chicken" />
+            <img :src="assetPath('buttered-chicken.png')" alt="Buttered Chicken" />
           </div>
           <h3 class="card-title">Buttered Chicken</h3>
           <p class="card-price">₱170</p>
@@ -44,7 +44,7 @@
 
         <div class="card fadeInUp sos delay-3">
           <div class="card-img">
-            <img src="/assets/pork-sisig.png" alt="Pork Sisig" />
+            <img :src="assetPath('pork-sisig.png')" alt="Pork Sisig" />
           </div>
           <h3 class="card-title">Pork Sisig</h3>
           <p class="card-price">₱170</p>
@@ -56,7 +56,11 @@
 
     <div class="section-divider"></div>
 
-    <section class="about" id="about">
+    <section
+      class="about"
+      id="about"
+      :style="{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${assetPath('lomi.png')})` }"
+    >
       <div class="about-content fadeInUp sos delay-1">
         <h2>About<br />Kusina ni Venus</h2>
         <p>Founded in 2017 as a cozy kubo-style eatery, Kusina ni Venus brings you the rich, nostalgic flavors of classic lutong bahay. From our signature Lomi Batangas to timeless home-cooked favorites, every dish is crafted to share with family and friends.</p>
@@ -69,4 +73,5 @@
 
 <script setup>
 import Footer from '../components/Footer.vue'
+import { assetPath } from '../utils/assets.js'
 </script>

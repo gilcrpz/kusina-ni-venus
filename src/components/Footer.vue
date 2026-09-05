@@ -2,7 +2,7 @@
   <footer class="contact" id="contact">
     <div class="contact-map">
       <a href="https://maps.app.goo.gl/sXQrM4uYRwzEACjJA" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/map.jpg" alt="Kusina ni Venus Map">
+        <img :src="assetPath('map.jpg')" alt="Kusina ni Venus Map">
       </a>
     </div>
 
@@ -17,3 +17,7 @@
     </div>
   </footer>
 </template>
+
+<script setup>
+import { assetPath } from '../utils/assets.js'
+</script>
