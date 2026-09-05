@@ -8,7 +8,7 @@ export const menuCategories = [
         name: "Lomi Special",
         price: 90,
         desc: "Rich and thick noodle soup overflowing with savory toppings and a boiled egg.",
-        img: assetPath('lomi.png')
+        img: assetPath('lomii.png')
       },
       {
         name: "Pancit Canton/Bihon",
